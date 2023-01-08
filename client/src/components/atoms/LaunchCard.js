@@ -11,7 +11,6 @@ const LaunchCard = ({ launchData }) => {
 
     return (
         <LaunchCardContainer>
-            <img src={launchData.flickr_images[0]} />
             <LaunchCardHeader>
                 <p>
                     {launchDate.month}/{launchDate.year}
